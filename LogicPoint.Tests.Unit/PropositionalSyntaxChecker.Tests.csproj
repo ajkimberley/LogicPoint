@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>LogicPoint.Tests.Unit</AssemblyName>
+
+    <RootNamespace>LogicPoint.Tests.Unit</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Acceptance.Tests
+namespace LogicPoint.Acceptance.Tests
 {
     using TechTalk.SpecFlow;
     
@@ -63,7 +63,7 @@ namespace Acceptance.Tests
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Propositional Grammar Syntax-Checker")))
             {
-                global::Acceptance.Tests.PropositionalGrammarSyntax_CheckerFeature.FeatureSetup(null);
+                global::LogicPoint.Acceptance.Tests.PropositionalGrammarSyntax_CheckerFeature.FeatureSetup(null);
             }
         }
         

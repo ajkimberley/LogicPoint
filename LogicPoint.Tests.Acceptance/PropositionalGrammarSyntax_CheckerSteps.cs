@@ -2,7 +2,7 @@
 using TechTalk.SpecFlow;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Acceptance.Tests
+namespace Logicpoint.Tests.Acceptance
 {
     [Binding]
     public class PropositionalGrammarSyntax_CheckerSteps

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using TechTalk.SpecFlow;
 
-namespace Acceptance.Tests
+namespace Logicpoint.Tests.Acceptance
 {
     [Binding]
     class CustomConversions

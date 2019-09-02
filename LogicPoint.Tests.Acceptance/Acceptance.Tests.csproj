@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>LogicPoint.Acceptance.Tests</AssemblyName>
+
+    <RootNamespace>LogicPoint.Acceptance.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PropositionalSyntaxChecker\PropositionalSyntaxChecker.csproj" />
+    <ProjectReference Include="..\LogicPoint.PropositionalSyntax\PropositionalSyntaxChecker.csproj" />
   </ItemGroup>
 
   <ItemGroup>
