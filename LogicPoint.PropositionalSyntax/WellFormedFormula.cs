@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PropositionalSyntaxChecker
+namespace LogicPoint.PropositionalSyntax
 {
     public class WellFormedFormula : IGrammaticalCategory
     {

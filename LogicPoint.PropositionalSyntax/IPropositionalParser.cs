@@ -1,4 +1,4 @@
-﻿namespace PropositionalSyntaxChecker
+﻿namespace LogicPoint.PropositionalSyntax
 {
     public interface IParser
     {

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PropositionalSyntaxChecker
+﻿namespace LogicPoint.PropositionalSyntax
 {
     public class PropositionalParser : IParser
     {
         public IGrammaticalCategory Parse(string input)
         {
-            return new GrammaticalCategory();
+            return new PropositionalVariable();
         }
     }
 }

@@ -5,14 +5,14 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropositionalSyntaxChecker", "LogicPoint.PropositionalSyntax\PropositionalSyntaxChecker.csproj", "{E69AB441-A73C-43B4-892E-459E9951F9BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acceptance.Tests", "LogicPoint.Tests.Acceptance\Acceptance.Tests.csproj", "{86E45AE3-13A2-4095-89E4-CA84FA97F6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Acceptance", "LogicPoint.Tests.Acceptance\Tests.Acceptance.csproj", "{86E45AE3-13A2-4095-89E4-CA84FA97F6CF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E69AB441-A73C-43B4-892E-459E9951F9BC} = {E69AB441-A73C-43B4-892E-459E9951F9BC}
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E9009F8-E319-4DCF-A184-267FD5A5FCD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropositionalTokenizer.Tests", "LogicPoint.Tests.Unit\PropositionalSyntaxChecker.Tests.csproj", "{FE03B2B2-074B-4519-B34D-C49808B911C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Unit", "LogicPoint.Tests.Unit\Tests.Unit.csproj", "{FE03B2B2-074B-4519-B34D-C49808B911C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
