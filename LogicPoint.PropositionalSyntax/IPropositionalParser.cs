@@ -2,6 +2,6 @@
 {
     public interface IParser
     {
-        IGrammaticalCategory Parse(string input);
+        bool Parse();
     }
 }
